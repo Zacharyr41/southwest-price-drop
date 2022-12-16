@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Southwest Flight Price Drop Notification System</title>
+  <style>
+    /* Set color scheme to match Southwest Airlines */
+    body {
+      background-color: #FF6633;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    /* Style form container */
+    .form-container {
+      width: 500px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    /* Style form inputs and buttons */
+    input, button {
+      border: none;
+      border-radius: 4px;
+      padding: 10px;
+      font-size: 16px;
+      transition: all 0.2s ease-in-out;
+    }
+    /* Style form input fields */
+    input {
+      background-color: #F5F5F5;
+      color: #FF6633;
+      width: 300px;
+    }
+    /* Style form submit button */
+    button {
+      background-color: #FF6633;
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    /* Animate form input fields and submit button on hover */
+    input:hover, button:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      transform: translateY(-2px);
+    }
+    /* Style form labels */
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Southwest Flight Price Drop Notification System</h1>
+    <form>
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" placeholder="Enter your first name">
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" placeholder="Enter your last name">
+      <label for="confirmation_number">Confirmation Number:</label>
+      <input type="text" id="confirmation_number" name="confirmation_number" placeholder="Enter your confirmation number">
+      <label for="flight_number">Flight Number:</label>
+      <input type="text" id="flight_number" name="flight_number" placeholder="Enter your flight number"><br>
+      <button type="submit">Sign Up for Alerts</button>
+    </form> 
+  </div>
+</body>
+</html>

@@ -1,0 +1,3362 @@
+{
+  "searchResults": {
+    "fareSummary": [
+      {
+        "fareFamily": "WGA",
+        "minimumFare": {
+          "value": "151.99",
+          "currencyCode": "USD"
+        }
+      },
+      {
+        "fareFamily": "BUS",
+        "minimumFare": {
+          "value": "281.98",
+          "currencyCode": "USD"
+        }
+      },
+      {
+        "fareFamily": "PLU",
+        "minimumFare": {
+          "value": "171.98",
+          "currencyCode": "USD"
+        }
+      },
+      {
+        "fareFamily": "ANY",
+        "minimumFare": {
+          "value": "231.98",
+          "currencyCode": "USD"
+        }
+      }
+    ],
+    "airProducts": [
+      {
+        "originationAirportCode": "LGA",
+        "destinationAirportCode": "MDW",
+        "fastestDuration": "150",
+        "containsAvailability": false,
+        "containsNonstop": true,
+        "containsBeforeNoon": true,
+        "containsNoonToSix": true,
+        "containsAfterSix": true,
+        "containsTimeOfDay": true,
+        "containsStops": true,
+        "containsDirect": false,
+        "currencyCode": null,
+        "details": [
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "06:30",
+            "arrivalTime": "08:00",
+            "nextDay": false,
+            "totalDuration": 150,
+            "flightNumbers": [
+              "949"
+            ],
+            "filterTags": [
+              "BEFORE_NOON",
+              "AVAILABLE",
+              "NONSTOP"
+            ],
+            "departureDateTime": "2023-01-02T06:30:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T08:00:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "949",
+                "duration": "02:30",
+                "numberOfStops": 0,
+                "departureTime": "06:30",
+                "arrivalTime": "08:00",
+                "departureDateTime": "2023-01-02T06:30:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T08:00:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "949",
+                    "legDuration": 150,
+                    "stopDuration": 0,
+                    "departureTime": "06:30",
+                    "arrivalTime": "08:00",
+                    "departureDateTime": "2023-01-02T06:30:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T08:00:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|GLNUP2H,G,LGA,MDW,2023-01-02T06:30-05:00,2023-01-02T08:00-06:00,WN,WN,949,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "127.80",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "24.19",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "151.99",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "767"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLNUP8G,B,LGA,MDW,2023-01-02T06:30-05:00,2023-01-02T08:00-06:00,WN,WN,949,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "248.73",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "33.25",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "281.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2985"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|GLNUP4Q,G,LGA,MDW,2023-01-02T06:30-05:00,2023-01-02T08:00-06:00,WN,WN,949,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "146.40",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "25.58",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "171.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1172"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|GLNUP6B,G,LGA,MDW,2023-01-02T06:30-05:00,2023-01-02T08:00-06:00,WN,WN,949,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "202.21",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "29.77",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "231.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2023"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "21:25",
+            "arrivalTime": "22:55",
+            "nextDay": false,
+            "totalDuration": 150,
+            "flightNumbers": [
+              "1326"
+            ],
+            "filterTags": [
+              "AFTER_SIX",
+              "AVAILABLE",
+              "NONSTOP"
+            ],
+            "departureDateTime": "2023-01-02T21:25:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T22:55:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "1326",
+                "duration": "02:30",
+                "numberOfStops": 0,
+                "departureTime": "21:25",
+                "arrivalTime": "22:55",
+                "departureDateTime": "2023-01-02T21:25:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T22:55:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "1326",
+                    "legDuration": 150,
+                    "stopDuration": 0,
+                    "departureTime": "21:25",
+                    "arrivalTime": "22:55",
+                    "departureDateTime": "2023-01-02T21:25:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T22:55:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|GLNUP2H,G,LGA,MDW,2023-01-02T21:25-05:00,2023-01-02T22:55-06:00,WN,WN,1326,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "127.80",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "24.19",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "151.99",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "767"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLNUP8G,B,LGA,MDW,2023-01-02T21:25-05:00,2023-01-02T22:55-06:00,WN,WN,1326,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "248.73",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "33.25",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "281.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2985"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|GLNUP4Q,G,LGA,MDW,2023-01-02T21:25-05:00,2023-01-02T22:55-06:00,WN,WN,1326,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "146.40",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "25.58",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "171.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1172"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|GLNUP6B,G,LGA,MDW,2023-01-02T21:25-05:00,2023-01-02T22:55-06:00,WN,WN,1326,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "202.21",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "29.77",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "231.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2023"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "17:45",
+            "arrivalTime": "23:30",
+            "nextDay": false,
+            "totalDuration": 405,
+            "flightNumbers": [
+              "1748",
+              "1551"
+            ],
+            "filterTags": [
+              "NOON_TO_SIX",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T17:45:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T23:30:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "TPA",
+                "flightNumber": "1748",
+                "duration": "03:00",
+                "numberOfStops": 0,
+                "departureTime": "17:45",
+                "arrivalTime": "20:45",
+                "departureDateTime": "2023-01-02T17:45:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T20:45:00.000-05:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "TPA",
+                    "flightNumber": "1748",
+                    "legDuration": 180,
+                    "stopDuration": 65,
+                    "changePlanes": true,
+                    "departureTime": "17:45",
+                    "arrivalTime": "20:45",
+                    "departureDateTime": "2023-01-02T17:45:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T20:45:00.000-05:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "TPA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "1551",
+                "duration": "02:40",
+                "numberOfStops": 0,
+                "departureTime": "21:50",
+                "arrivalTime": "23:30",
+                "departureDateTime": "2023-01-02T21:50:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T23:30:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "TPA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "1551",
+                    "legDuration": 160,
+                    "stopDuration": 0,
+                    "departureTime": "21:50",
+                    "arrivalTime": "23:30",
+                    "departureDateTime": "2023-01-02T21:50:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T23:30:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|GLAUP2H,G,LGA,TPA,2023-01-02T17:45-05:00,2023-01-02T20:45-05:00,WN,WN,1748,73H|GLAUP2H,G,TPA,MDW,2023-01-02T21:50-05:00,2023-01-02T23:30-06:00,WN,WN,1551,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "SOLD_OUT",
+                  "originalFare": null,
+                  "fare": {},
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|LLA0P8L,L,LGA,TPA,2023-01-02T17:45-05:00,2023-01-02T20:45-05:00,WN,WN,1748,73H|LLA0P8L,L,TPA,MDW,2023-01-02T21:50-05:00,2023-01-02T23:30-06:00,WN,WN,1551,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "561.28",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "65.70",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "626.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "6736"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|GLAUP4Q,G,LGA,TPA,2023-01-02T17:45-05:00,2023-01-02T20:45-05:00,WN,WN,1748,73H|GLAUP4Q,G,TPA,MDW,2023-01-02T21:50-05:00,2023-01-02T23:30-06:00,WN,WN,1551,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "SOLD_OUT",
+                  "originalFare": null,
+                  "fare": {},
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|YLA0P6L,Y,LGA,TPA,2023-01-02T17:45-05:00,2023-01-02T20:45-05:00,WN,WN,1748,73H|YLA0P6L,Y,TPA,MDW,2023-01-02T21:50-05:00,2023-01-02T23:30-06:00,WN,WN,1551,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "514.77",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "62.21",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "576.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "5148"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "10:50",
+            "arrivalTime": "16:50",
+            "nextDay": false,
+            "totalDuration": 420,
+            "flightNumbers": [
+              "111",
+              "3670"
+            ],
+            "filterTags": [
+              "BEFORE_NOON",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T10:50:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T16:50:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "ATL",
+                "flightNumber": "111",
+                "duration": "02:35",
+                "numberOfStops": 0,
+                "departureTime": "10:50",
+                "arrivalTime": "13:25",
+                "departureDateTime": "2023-01-02T10:50:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T13:25:00.000-05:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "7M8",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "ATL",
+                    "flightNumber": "111",
+                    "legDuration": 155,
+                    "stopDuration": 150,
+                    "changePlanes": true,
+                    "departureTime": "10:50",
+                    "arrivalTime": "13:25",
+                    "departureDateTime": "2023-01-02T10:50:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T13:25:00.000-05:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "ATL",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "3670",
+                "duration": "01:55",
+                "numberOfStops": 0,
+                "departureTime": "15:55",
+                "arrivalTime": "16:50",
+                "departureDateTime": "2023-01-02T15:55:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T16:50:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "ATL",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "3670",
+                    "legDuration": 115,
+                    "stopDuration": 0,
+                    "departureTime": "15:55",
+                    "arrivalTime": "16:50",
+                    "departureDateTime": "2023-01-02T15:55:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T16:50:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|GLAUP2H,G,LGA,ATL,2023-01-02T10:50-05:00,2023-01-02T13:25-05:00,WN,WN,111,7M8|GLAUP2H,G,ATL,MDW,2023-01-02T15:55-05:00,2023-01-02T16:50-06:00,WN,WN,3670,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "SOLD_OUT",
+                  "originalFare": null,
+                  "fare": {},
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|LLA0P8L,L,LGA,ATL,2023-01-02T10:50-05:00,2023-01-02T13:25-05:00,WN,WN,111,7M8|LLA0P8L,L,ATL,MDW,2023-01-02T15:55-05:00,2023-01-02T16:50-06:00,WN,WN,3670,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "561.28",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "65.70",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "626.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "6736"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|GLAUP4Q,G,LGA,ATL,2023-01-02T10:50-05:00,2023-01-02T13:25-05:00,WN,WN,111,7M8|GLAUP4Q,G,ATL,MDW,2023-01-02T15:55-05:00,2023-01-02T16:50-06:00,WN,WN,3670,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "SOLD_OUT",
+                  "originalFare": null,
+                  "fare": {},
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|YLA0P6L,Y,LGA,ATL,2023-01-02T10:50-05:00,2023-01-02T13:25-05:00,WN,WN,111,7M8|YLA0P6L,Y,ATL,MDW,2023-01-02T15:55-05:00,2023-01-02T16:50-06:00,WN,WN,3670,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "514.77",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "62.21",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "576.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "5148"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "18:50",
+            "arrivalTime": "00:15",
+            "nextDay": true,
+            "totalDuration": 385,
+            "flightNumbers": [
+              "3264",
+              "2069"
+            ],
+            "filterTags": [
+              "AFTER_SIX",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T18:50:00.000-05:00",
+            "arrivalDateTime": "2023-01-03T00:15:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "BNA",
+                "flightNumber": "3264",
+                "duration": "02:45",
+                "numberOfStops": 0,
+                "departureTime": "18:50",
+                "arrivalTime": "20:35",
+                "departureDateTime": "2023-01-02T18:50:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T20:35:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "7M8",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "BNA",
+                    "flightNumber": "3264",
+                    "legDuration": 165,
+                    "stopDuration": 125,
+                    "changePlanes": true,
+                    "departureTime": "18:50",
+                    "arrivalTime": "20:35",
+                    "departureDateTime": "2023-01-02T18:50:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T20:35:00.000-06:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "BNA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "2069",
+                "duration": "01:35",
+                "numberOfStops": 0,
+                "departureTime": "22:40",
+                "arrivalTime": "00:15",
+                "departureDateTime": "2023-01-02T22:40:00.000-06:00",
+                "arrivalDateTime": "2023-01-03T00:15:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "BNA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "2069",
+                    "legDuration": 95,
+                    "stopDuration": 0,
+                    "departureTime": "22:40",
+                    "arrivalTime": "00:15",
+                    "departureDateTime": "2023-01-02T22:40:00.000-06:00",
+                    "arrivalDateTime": "2023-01-03T00:15:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|PLAUP2H,P,LGA,BNA,2023-01-02T18:50-05:00,2023-01-02T20:35-06:00,WN,WN,3264,7M8|PLAUP2H,P,BNA,MDW,2023-01-02T22:40-06:00,2023-01-03T00:15-06:00,WN,WN,2069,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "147.33",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 2,
+                    "totalTaxesAndFees": {
+                      "value": "34.65",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "181.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "884"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLAUP8P,B,LGA,BNA,2023-01-02T18:50-05:00,2023-01-02T20:35-06:00,WN,WN,3264,7M8|BLAUP8P,B,BNA,MDW,2023-01-02T22:40-06:00,2023-01-03T00:15-06:00,WN,WN,2069,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "268.26",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "43.72",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "311.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3220"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|PLAUP4Q,P,LGA,BNA,2023-01-02T18:50-05:00,2023-01-02T20:35-06:00,WN,WN,3264,7M8|PLAUP4Q,P,BNA,MDW,2023-01-02T22:40-06:00,2023-01-03T00:15-06:00,WN,WN,2069,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "165.93",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 2,
+                    "totalTaxesAndFees": {
+                      "value": "36.04",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "201.97",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1328"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|PLAUP6B,P,LGA,BNA,2023-01-02T18:50-05:00,2023-01-02T20:35-06:00,WN,WN,3264,7M8|PLAUP6B,P,BNA,MDW,2023-01-02T22:40-06:00,2023-01-03T00:15-06:00,WN,WN,2069,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "221.75",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 2,
+                    "totalTaxesAndFees": {
+                      "value": "40.23",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "261.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2218"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "15:40",
+            "arrivalTime": "17:20",
+            "nextDay": false,
+            "totalDuration": 160,
+            "flightNumbers": [
+              "1377"
+            ],
+            "filterTags": [
+              "NOON_TO_SIX",
+              "AVAILABLE",
+              "NONSTOP"
+            ],
+            "departureDateTime": "2023-01-02T15:40:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T17:20:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "1377",
+                "duration": "02:40",
+                "numberOfStops": 0,
+                "departureTime": "15:40",
+                "arrivalTime": "17:20",
+                "departureDateTime": "2023-01-02T15:40:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T17:20:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "1377",
+                    "legDuration": 160,
+                    "stopDuration": 0,
+                    "departureTime": "15:40",
+                    "arrivalTime": "17:20",
+                    "departureDateTime": "2023-01-02T15:40:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T17:20:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|CLNUP2H,C,LGA,MDW,2023-01-02T15:40-05:00,2023-01-02T17:20-06:00,WN,WN,1377,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "157.56",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 1,
+                    "totalTaxesAndFees": {
+                      "value": "26.42",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "183.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "946"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLNUP8C,B,LGA,MDW,2023-01-02T15:40-05:00,2023-01-02T17:20-06:00,WN,WN,1377,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "278.49",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "35.49",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "313.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3342"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|CLNUP4Q,C,LGA,MDW,2023-01-02T15:40-05:00,2023-01-02T17:20-06:00,WN,WN,1377,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "176.17",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 1,
+                    "totalTaxesAndFees": {
+                      "value": "27.81",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "203.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1410"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|CLNUP6B,C,LGA,MDW,2023-01-02T15:40-05:00,2023-01-02T17:20-06:00,WN,WN,1377,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "231.98",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 1,
+                    "totalTaxesAndFees": {
+                      "value": "32.00",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "263.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2320"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "11:40",
+            "arrivalTime": "13:15",
+            "nextDay": false,
+            "totalDuration": 155,
+            "flightNumbers": [
+              "2565"
+            ],
+            "filterTags": [
+              "BEFORE_NOON",
+              "AVAILABLE",
+              "NONSTOP"
+            ],
+            "departureDateTime": "2023-01-02T11:40:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T13:15:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "2565",
+                "duration": "02:35",
+                "numberOfStops": 0,
+                "departureTime": "11:40",
+                "arrivalTime": "13:15",
+                "departureDateTime": "2023-01-02T11:40:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T13:15:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "2565",
+                    "legDuration": 155,
+                    "stopDuration": 0,
+                    "departureTime": "11:40",
+                    "arrivalTime": "13:15",
+                    "departureDateTime": "2023-01-02T11:40:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T13:15:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|TLN7P2H,T,LGA,MDW,2023-01-02T11:40-05:00,2023-01-02T13:15-06:00,WN,WN,2565,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "184.54",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 1,
+                    "totalTaxesAndFees": {
+                      "value": "28.44",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "212.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1108"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLN7P8T,B,LGA,MDW,2023-01-02T11:40-05:00,2023-01-02T13:15-06:00,WN,WN,2565,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "305.47",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "37.51",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "342.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3666"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|TLN7P4Q,T,LGA,MDW,2023-01-02T11:40-05:00,2023-01-02T13:15-06:00,WN,WN,2565,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "203.14",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 1,
+                    "totalTaxesAndFees": {
+                      "value": "29.84",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "232.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1626"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|TLN7P6B,T,LGA,MDW,2023-01-02T11:40-05:00,2023-01-02T13:15-06:00,WN,WN,2565,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "258.96",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 1,
+                    "totalTaxesAndFees": {
+                      "value": "34.02",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "292.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2590"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "18:25",
+            "arrivalTime": "23:20",
+            "nextDay": false,
+            "totalDuration": 355,
+            "flightNumbers": [
+              "1550",
+              "555"
+            ],
+            "filterTags": [
+              "AFTER_SIX",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T18:25:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T23:20:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "STL",
+                "flightNumber": "1550",
+                "duration": "02:55",
+                "numberOfStops": 0,
+                "departureTime": "18:25",
+                "arrivalTime": "20:20",
+                "departureDateTime": "2023-01-02T18:25:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T20:20:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "STL",
+                    "flightNumber": "1550",
+                    "legDuration": 175,
+                    "stopDuration": 115,
+                    "changePlanes": true,
+                    "departureTime": "18:25",
+                    "arrivalTime": "20:20",
+                    "departureDateTime": "2023-01-02T18:25:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T20:20:00.000-06:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "STL",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "555",
+                "duration": "01:05",
+                "numberOfStops": 0,
+                "departureTime": "22:15",
+                "arrivalTime": "23:20",
+                "departureDateTime": "2023-01-02T22:15:00.000-06:00",
+                "arrivalDateTime": "2023-01-02T23:20:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "738",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "STL",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "555",
+                    "legDuration": 65,
+                    "stopDuration": 0,
+                    "departureTime": "22:15",
+                    "arrivalTime": "23:20",
+                    "departureDateTime": "2023-01-02T22:15:00.000-06:00",
+                    "arrivalDateTime": "2023-01-02T23:20:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|TLA7P2H,T,LGA,STL,2023-01-02T18:25-05:00,2023-01-02T20:20-06:00,WN,WN,1550,73H|TLA7P2H,T,STL,MDW,2023-01-02T22:15-06:00,2023-01-02T23:20-06:00,WN,WN,555,738",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "184.54",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 2,
+                    "totalTaxesAndFees": {
+                      "value": "37.44",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "221.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1108"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLA7P8T,B,LGA,STL,2023-01-02T18:25-05:00,2023-01-02T20:20-06:00,WN,WN,1550,73H|BLA7P8T,B,STL,MDW,2023-01-02T22:15-06:00,2023-01-02T23:20-06:00,WN,WN,555,738",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "305.47",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "46.51",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "351.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3666"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|TLA7P4Q,T,LGA,STL,2023-01-02T18:25-05:00,2023-01-02T20:20-06:00,WN,WN,1550,73H|TLA7P4Q,T,STL,MDW,2023-01-02T22:15-06:00,2023-01-02T23:20-06:00,WN,WN,555,738",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "203.14",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 2,
+                    "totalTaxesAndFees": {
+                      "value": "38.84",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "241.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1626"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|TLA7P6B,T,LGA,STL,2023-01-02T18:25-05:00,2023-01-02T20:20-06:00,WN,WN,1550,73H|TLA7P6B,T,STL,MDW,2023-01-02T22:15-06:00,2023-01-02T23:20-06:00,WN,WN,555,738",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "258.96",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 2,
+                    "totalTaxesAndFees": {
+                      "value": "43.02",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "301.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2590"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "14:25",
+            "arrivalTime": "15:55",
+            "nextDay": false,
+            "totalDuration": 150,
+            "flightNumbers": [
+              "829"
+            ],
+            "filterTags": [
+              "NOON_TO_SIX",
+              "AVAILABLE",
+              "NONSTOP"
+            ],
+            "departureDateTime": "2023-01-02T14:25:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T15:55:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "829",
+                "duration": "02:30",
+                "numberOfStops": 0,
+                "departureTime": "14:25",
+                "arrivalTime": "15:55",
+                "departureDateTime": "2023-01-02T14:25:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T15:55:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "829",
+                    "legDuration": 150,
+                    "stopDuration": 0,
+                    "departureTime": "14:25",
+                    "arrivalTime": "15:55",
+                    "departureDateTime": "2023-01-02T14:25:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T15:55:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|NLN0P2H,N,LGA,MDW,2023-01-02T14:25-05:00,2023-01-02T15:55-06:00,WN,WN,829,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "196.63",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "29.35",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "225.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1180"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|LLN0P8N,L,LGA,MDW,2023-01-02T14:25-05:00,2023-01-02T15:55-06:00,WN,WN,829,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "354.77",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "41.21",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "395.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "4258"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|NLN0P4Q,N,LGA,MDW,2023-01-02T14:25-05:00,2023-01-02T15:55-06:00,WN,WN,829,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "215.24",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "30.74",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "245.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1722"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|NLN0P6L,N,LGA,MDW,2023-01-02T14:25-05:00,2023-01-02T15:55-06:00,WN,WN,829,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "308.26",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "37.72",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "345.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3083"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "09:00",
+            "arrivalTime": "10:35",
+            "nextDay": false,
+            "totalDuration": 155,
+            "flightNumbers": [
+              "747"
+            ],
+            "filterTags": [
+              "BEFORE_NOON",
+              "AVAILABLE",
+              "NONSTOP"
+            ],
+            "departureDateTime": "2023-01-02T09:00:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T10:35:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "747",
+                "duration": "02:35",
+                "numberOfStops": 0,
+                "departureTime": "09:00",
+                "arrivalTime": "10:35",
+                "departureDateTime": "2023-01-02T09:00:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T10:35:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "747",
+                    "legDuration": 155,
+                    "stopDuration": 0,
+                    "departureTime": "09:00",
+                    "arrivalTime": "10:35",
+                    "departureDateTime": "2023-01-02T09:00:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T10:35:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|NLN0P2H,N,LGA,MDW,2023-01-02T09:00-05:00,2023-01-02T10:35-06:00,WN,WN,747,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "196.63",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "29.35",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "225.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1180"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLN0P8N,B,LGA,MDW,2023-01-02T09:00-05:00,2023-01-02T10:35-06:00,WN,WN,747,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "317.56",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "38.42",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "355.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3811"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|NLN0P4Q,N,LGA,MDW,2023-01-02T09:00-05:00,2023-01-02T10:35-06:00,WN,WN,747,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "215.24",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "30.74",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "245.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1722"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|NLN0P6B,N,LGA,MDW,2023-01-02T09:00-05:00,2023-01-02T10:35-06:00,WN,WN,747,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "271.05",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "34.93",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "305.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2711"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "17:10",
+            "arrivalTime": "18:50",
+            "nextDay": false,
+            "totalDuration": 160,
+            "flightNumbers": [
+              "1382"
+            ],
+            "filterTags": [
+              "NOON_TO_SIX",
+              "AVAILABLE",
+              "NONSTOP"
+            ],
+            "departureDateTime": "2023-01-02T17:10:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T18:50:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "1382",
+                "duration": "02:40",
+                "numberOfStops": 0,
+                "departureTime": "17:10",
+                "arrivalTime": "18:50",
+                "departureDateTime": "2023-01-02T17:10:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T18:50:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "1382",
+                    "legDuration": 160,
+                    "stopDuration": 0,
+                    "departureTime": "17:10",
+                    "arrivalTime": "18:50",
+                    "departureDateTime": "2023-01-02T17:10:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T18:50:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|NLN0P2H,N,LGA,MDW,2023-01-02T17:10-05:00,2023-01-02T18:50-06:00,WN,WN,1382,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "196.63",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "29.35",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "225.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1180"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLN0P8N,B,LGA,MDW,2023-01-02T17:10-05:00,2023-01-02T18:50-06:00,WN,WN,1382,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "317.56",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "38.42",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "355.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3811"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|NLN0P4Q,N,LGA,MDW,2023-01-02T17:10-05:00,2023-01-02T18:50-06:00,WN,WN,1382,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "215.24",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "30.74",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "245.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1722"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|NLN0P6B,N,LGA,MDW,2023-01-02T17:10-05:00,2023-01-02T18:50-06:00,WN,WN,1382,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "271.05",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "34.93",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "305.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2711"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "18:25",
+            "arrivalTime": "23:20",
+            "nextDay": false,
+            "totalDuration": 355,
+            "flightNumbers": [
+              "1433",
+              "3236"
+            ],
+            "filterTags": [
+              "AFTER_SIX",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T18:25:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T23:20:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "ATL",
+                "flightNumber": "1433",
+                "duration": "02:40",
+                "numberOfStops": 0,
+                "departureTime": "18:25",
+                "arrivalTime": "21:05",
+                "departureDateTime": "2023-01-02T18:25:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T21:05:00.000-05:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "7M8",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "ATL",
+                    "flightNumber": "1433",
+                    "legDuration": 160,
+                    "stopDuration": 80,
+                    "changePlanes": true,
+                    "departureTime": "18:25",
+                    "arrivalTime": "21:05",
+                    "departureDateTime": "2023-01-02T18:25:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T21:05:00.000-05:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "ATL",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "3236",
+                "duration": "01:55",
+                "numberOfStops": 0,
+                "departureTime": "22:25",
+                "arrivalTime": "23:20",
+                "departureDateTime": "2023-01-02T22:25:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T23:20:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "7M8",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "ATL",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "3236",
+                    "legDuration": 115,
+                    "stopDuration": 0,
+                    "departureTime": "22:25",
+                    "arrivalTime": "23:20",
+                    "departureDateTime": "2023-01-02T22:25:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T23:20:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|NLA0P2H,N,LGA,ATL,2023-01-02T18:25-05:00,2023-01-02T21:05-05:00,WN,WN,1433,7M8|NLA0P2H,N,ATL,MDW,2023-01-02T22:25-05:00,2023-01-02T23:20-06:00,WN,WN,3236,7M8",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "196.63",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 4,
+                    "totalTaxesAndFees": {
+                      "value": "38.35",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "234.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1180"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLA0P8N,B,LGA,ATL,2023-01-02T18:25-05:00,2023-01-02T21:05-05:00,WN,WN,1433,7M8|BLA0P8N,B,ATL,MDW,2023-01-02T22:25-05:00,2023-01-02T23:20-06:00,WN,WN,3236,7M8",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "317.56",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "47.42",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "364.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3811"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|NLA0P4Q,N,LGA,ATL,2023-01-02T18:25-05:00,2023-01-02T21:05-05:00,WN,WN,1433,7M8|NLA0P4Q,N,ATL,MDW,2023-01-02T22:25-05:00,2023-01-02T23:20-06:00,WN,WN,3236,7M8",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "215.24",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 4,
+                    "totalTaxesAndFees": {
+                      "value": "39.74",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "254.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1722"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|NLA0P6B,N,LGA,ATL,2023-01-02T18:25-05:00,2023-01-02T21:05-05:00,WN,WN,1433,7M8|NLA0P6B,N,ATL,MDW,2023-01-02T22:25-05:00,2023-01-02T23:20-06:00,WN,WN,3236,7M8",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "271.05",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 4,
+                    "totalTaxesAndFees": {
+                      "value": "43.93",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "314.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2711"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "19:10",
+            "arrivalTime": "20:45",
+            "nextDay": false,
+            "totalDuration": 155,
+            "flightNumbers": [
+              "3230"
+            ],
+            "filterTags": [
+              "AFTER_SIX",
+              "AVAILABLE",
+              "NONSTOP"
+            ],
+            "departureDateTime": "2023-01-02T19:10:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T20:45:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "3230",
+                "duration": "02:35",
+                "numberOfStops": 0,
+                "departureTime": "19:10",
+                "arrivalTime": "20:45",
+                "departureDateTime": "2023-01-02T19:10:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T20:45:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "7M8",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "3230",
+                    "legDuration": 155,
+                    "stopDuration": 0,
+                    "departureTime": "19:10",
+                    "arrivalTime": "20:45",
+                    "departureDateTime": "2023-01-02T19:10:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T20:45:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|MLN0P2H,M,LGA,MDW,2023-01-02T19:10-05:00,2023-01-02T20:45-06:00,WN,WN,3230,7M8",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "223.61",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "31.37",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "254.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1342"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLN0P8M,B,LGA,MDW,2023-01-02T19:10-05:00,2023-01-02T20:45-06:00,WN,WN,3230,7M8",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "344.54",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "40.44",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "384.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "4135"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|MLN0P4Q,M,LGA,MDW,2023-01-02T19:10-05:00,2023-01-02T20:45-06:00,WN,WN,3230,7M8",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "242.21",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "32.77",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "274.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1938"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|MLN0P6B,M,LGA,MDW,2023-01-02T19:10-05:00,2023-01-02T20:45-06:00,WN,WN,3230,7M8",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "298.03",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "36.95",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "334.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2981"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "09:50",
+            "arrivalTime": "14:20",
+            "nextDay": false,
+            "totalDuration": 330,
+            "flightNumbers": [
+              "353",
+              "3467"
+            ],
+            "filterTags": [
+              "BEFORE_NOON",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T09:50:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T14:20:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "BNA",
+                "flightNumber": "353",
+                "duration": "02:40",
+                "numberOfStops": 0,
+                "departureTime": "09:50",
+                "arrivalTime": "11:30",
+                "departureDateTime": "2023-01-02T09:50:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T11:30:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "BNA",
+                    "flightNumber": "353",
+                    "legDuration": 160,
+                    "stopDuration": 75,
+                    "changePlanes": true,
+                    "departureTime": "09:50",
+                    "arrivalTime": "11:30",
+                    "departureDateTime": "2023-01-02T09:50:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T11:30:00.000-06:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "BNA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "3467",
+                "duration": "01:35",
+                "numberOfStops": 0,
+                "departureTime": "12:45",
+                "arrivalTime": "14:20",
+                "departureDateTime": "2023-01-02T12:45:00.000-06:00",
+                "arrivalDateTime": "2023-01-02T14:20:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "BNA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "3467",
+                    "legDuration": 95,
+                    "stopDuration": 0,
+                    "departureTime": "12:45",
+                    "arrivalTime": "14:20",
+                    "departureDateTime": "2023-01-02T12:45:00.000-06:00",
+                    "arrivalDateTime": "2023-01-02T14:20:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|MLA0P2H,M,LGA,BNA,2023-01-02T09:50-05:00,2023-01-02T11:30-06:00,WN,WN,353,73W|MLA0P2H,M,BNA,MDW,2023-01-02T12:45-06:00,2023-01-02T14:20-06:00,WN,WN,3467,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "223.61",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "40.37",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "263.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1342"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLA0P8M,B,LGA,BNA,2023-01-02T09:50-05:00,2023-01-02T11:30-06:00,WN,WN,353,73W|BLA0P8M,B,BNA,MDW,2023-01-02T12:45-06:00,2023-01-02T14:20-06:00,WN,WN,3467,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "344.54",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "49.44",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "393.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "4135"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|MLA0P4Q,M,LGA,BNA,2023-01-02T09:50-05:00,2023-01-02T11:30-06:00,WN,WN,353,73W|MLA0P4Q,M,BNA,MDW,2023-01-02T12:45-06:00,2023-01-02T14:20-06:00,WN,WN,3467,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "242.21",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "41.77",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "283.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1938"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|MLA0P6B,M,LGA,BNA,2023-01-02T09:50-05:00,2023-01-02T11:30-06:00,WN,WN,353,73W|MLA0P6B,M,BNA,MDW,2023-01-02T12:45-06:00,2023-01-02T14:20-06:00,WN,WN,3467,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "298.03",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "45.95",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "343.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2981"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "07:00",
+            "arrivalTime": "11:15",
+            "nextDay": false,
+            "totalDuration": 315,
+            "flightNumbers": [
+              "598",
+              "3568"
+            ],
+            "filterTags": [
+              "BEFORE_NOON",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T07:00:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T11:15:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "STL",
+                "flightNumber": "598",
+                "duration": "02:50",
+                "numberOfStops": 0,
+                "departureTime": "07:00",
+                "arrivalTime": "08:50",
+                "departureDateTime": "2023-01-02T07:00:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T08:50:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "STL",
+                    "flightNumber": "598",
+                    "legDuration": 170,
+                    "stopDuration": 80,
+                    "changePlanes": true,
+                    "departureTime": "07:00",
+                    "arrivalTime": "08:50",
+                    "departureDateTime": "2023-01-02T07:00:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T08:50:00.000-06:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "STL",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "3568",
+                "duration": "01:05",
+                "numberOfStops": 0,
+                "departureTime": "10:10",
+                "arrivalTime": "11:15",
+                "departureDateTime": "2023-01-02T10:10:00.000-06:00",
+                "arrivalDateTime": "2023-01-02T11:15:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "STL",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "3568",
+                    "legDuration": 65,
+                    "stopDuration": 0,
+                    "departureTime": "10:10",
+                    "arrivalTime": "11:15",
+                    "departureDateTime": "2023-01-02T10:10:00.000-06:00",
+                    "arrivalDateTime": "2023-01-02T11:15:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|OLA0P2H,O,LGA,STL,2023-01-02T07:00-05:00,2023-01-02T08:50-06:00,WN,WN,598,73H|OLA0P2H,O,STL,MDW,2023-01-02T10:10-06:00,2023-01-02T11:15-06:00,WN,WN,3568,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "237.56",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "41.42",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "278.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "1426"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLA0P8O,B,LGA,STL,2023-01-02T07:00-05:00,2023-01-02T08:50-06:00,WN,WN,598,73H|BLA0P8O,B,STL,MDW,2023-01-02T10:10-06:00,2023-01-02T11:15-06:00,WN,WN,3568,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "358.49",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "50.49",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "408.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "4302"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|OLA0P4Q,O,LGA,STL,2023-01-02T07:00-05:00,2023-01-02T08:50-06:00,WN,WN,598,73H|OLA0P4Q,O,STL,MDW,2023-01-02T10:10-06:00,2023-01-02T11:15-06:00,WN,WN,3568,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "256.17",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "42.81",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "298.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2050"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|OLA0P6B,O,LGA,STL,2023-01-02T07:00-05:00,2023-01-02T08:50-06:00,WN,WN,598,73H|OLA0P6B,O,STL,MDW,2023-01-02T10:10-06:00,2023-01-02T11:15-06:00,WN,WN,3568,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "311.98",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "47.00",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "358.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "3120"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "15:10",
+            "arrivalTime": "19:55",
+            "nextDay": false,
+            "totalDuration": 345,
+            "flightNumbers": [
+              "295",
+              "3694"
+            ],
+            "filterTags": [
+              "NOON_TO_SIX",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T15:10:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T19:55:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "STL",
+                "flightNumber": "295",
+                "duration": "03:00",
+                "numberOfStops": 0,
+                "departureTime": "15:10",
+                "arrivalTime": "17:10",
+                "departureDateTime": "2023-01-02T15:10:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T17:10:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "STL",
+                    "flightNumber": "295",
+                    "legDuration": 180,
+                    "stopDuration": 100,
+                    "changePlanes": true,
+                    "departureTime": "15:10",
+                    "arrivalTime": "17:10",
+                    "departureDateTime": "2023-01-02T15:10:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T17:10:00.000-06:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "STL",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "3694",
+                "duration": "01:05",
+                "numberOfStops": 0,
+                "departureTime": "18:50",
+                "arrivalTime": "19:55",
+                "departureDateTime": "2023-01-02T18:50:00.000-06:00",
+                "arrivalDateTime": "2023-01-02T19:55:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "STL",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "3694",
+                    "legDuration": 65,
+                    "stopDuration": 0,
+                    "departureTime": "18:50",
+                    "arrivalTime": "19:55",
+                    "departureDateTime": "2023-01-02T18:50:00.000-06:00",
+                    "arrivalDateTime": "2023-01-02T19:55:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|HLA0P2H,H,LGA,STL,2023-01-02T15:10-05:00,2023-01-02T17:10-06:00,WN,WN,295,73W|HLA0P2H,H,STL,MDW,2023-01-02T18:50-06:00,2023-01-02T19:55-06:00,WN,WN,3694,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "350.12",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "49.86",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "399.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2101"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLA0P8H,B,LGA,STL,2023-01-02T15:10-05:00,2023-01-02T17:10-06:00,WN,WN,295,73W|BLA0P8H,B,STL,MDW,2023-01-02T18:50-06:00,2023-01-02T19:55-06:00,WN,WN,3694,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "471.05",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "58.93",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "529.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "5653"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|HLA0P4Q,H,LGA,STL,2023-01-02T15:10-05:00,2023-01-02T17:10-06:00,WN,WN,295,73W|HLA0P4Q,H,STL,MDW,2023-01-02T18:50-06:00,2023-01-02T19:55-06:00,WN,WN,3694,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "368.73",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "51.25",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "419.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2950"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|HLA0P6B,H,LGA,STL,2023-01-02T15:10-05:00,2023-01-02T17:10-06:00,WN,WN,295,73W|HLA0P6B,H,STL,MDW,2023-01-02T18:50-06:00,2023-01-02T19:55-06:00,WN,WN,3694,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "424.54",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 5,
+                    "totalTaxesAndFees": {
+                      "value": "55.44",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "479.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "4246"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "10:55",
+            "arrivalTime": "15:45",
+            "nextDay": false,
+            "totalDuration": 350,
+            "flightNumbers": [
+              "2729",
+              "2884"
+            ],
+            "filterTags": [
+              "BEFORE_NOON",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T10:55:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T15:45:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "STL",
+                "flightNumber": "2729",
+                "duration": "02:50",
+                "numberOfStops": 0,
+                "departureTime": "10:55",
+                "arrivalTime": "12:45",
+                "departureDateTime": "2023-01-02T10:55:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T12:45:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "STL",
+                    "flightNumber": "2729",
+                    "legDuration": 170,
+                    "stopDuration": 115,
+                    "changePlanes": true,
+                    "departureTime": "10:55",
+                    "arrivalTime": "12:45",
+                    "departureDateTime": "2023-01-02T10:55:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T12:45:00.000-06:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "STL",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "2884",
+                "duration": "01:05",
+                "numberOfStops": 0,
+                "departureTime": "14:40",
+                "arrivalTime": "15:45",
+                "departureDateTime": "2023-01-02T14:40:00.000-06:00",
+                "arrivalDateTime": "2023-01-02T15:45:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "STL",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "2884",
+                    "legDuration": 65,
+                    "stopDuration": 0,
+                    "departureTime": "14:40",
+                    "arrivalTime": "15:45",
+                    "departureDateTime": "2023-01-02T14:40:00.000-06:00",
+                    "arrivalDateTime": "2023-01-02T15:45:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|HLA0P2H,H,LGA,STL,2023-01-02T10:55-05:00,2023-01-02T12:45-06:00,WN,WN,2729,73W|HLA0P2H,H,STL,MDW,2023-01-02T14:40-06:00,2023-01-02T15:45-06:00,WN,WN,2884,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "350.12",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "49.86",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "399.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2101"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLA0P8H,B,LGA,STL,2023-01-02T10:55-05:00,2023-01-02T12:45-06:00,WN,WN,2729,73W|BLA0P8H,B,STL,MDW,2023-01-02T14:40-06:00,2023-01-02T15:45-06:00,WN,WN,2884,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "471.05",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "58.93",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "529.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "5653"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|HLA0P4Q,H,LGA,STL,2023-01-02T10:55-05:00,2023-01-02T12:45-06:00,WN,WN,2729,73W|HLA0P4Q,H,STL,MDW,2023-01-02T14:40-06:00,2023-01-02T15:45-06:00,WN,WN,2884,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "368.73",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "51.25",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "419.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2950"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|HLA0P6B,H,LGA,STL,2023-01-02T10:55-05:00,2023-01-02T12:45-06:00,WN,WN,2729,73W|HLA0P6B,H,STL,MDW,2023-01-02T14:40-06:00,2023-01-02T15:45-06:00,WN,WN,2884,73W",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "424.54",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "55.44",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "479.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "4246"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          },
+          {
+            "originationAirportCode": "LGA",
+            "destinationAirportCode": "MDW",
+            "departureTime": "13:25",
+            "arrivalTime": "19:30",
+            "nextDay": false,
+            "totalDuration": 425,
+            "flightNumbers": [
+              "2771",
+              "1956"
+            ],
+            "filterTags": [
+              "NOON_TO_SIX",
+              "AVAILABLE",
+              "STOPS"
+            ],
+            "departureDateTime": "2023-01-02T13:25:00.000-05:00",
+            "arrivalDateTime": "2023-01-02T19:30:00.000-06:00",
+            "segments": [
+              {
+                "originationAirportCode": "LGA",
+                "destinationAirportCode": "BNA",
+                "flightNumber": "2771",
+                "duration": "02:35",
+                "numberOfStops": 0,
+                "departureTime": "13:25",
+                "arrivalTime": "15:00",
+                "departureDateTime": "2023-01-02T13:25:00.000-05:00",
+                "arrivalDateTime": "2023-01-02T15:00:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73W",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "LGA",
+                    "destinationAirportCode": "BNA",
+                    "flightNumber": "2771",
+                    "legDuration": 155,
+                    "stopDuration": 175,
+                    "changePlanes": true,
+                    "departureTime": "13:25",
+                    "arrivalTime": "15:00",
+                    "departureDateTime": "2023-01-02T13:25:00.000-05:00",
+                    "arrivalDateTime": "2023-01-02T15:00:00.000-06:00"
+                  }
+                ]
+              },
+              {
+                "originationAirportCode": "BNA",
+                "destinationAirportCode": "MDW",
+                "flightNumber": "1956",
+                "duration": "01:35",
+                "numberOfStops": 0,
+                "departureTime": "17:55",
+                "arrivalTime": "19:30",
+                "departureDateTime": "2023-01-02T17:55:00.000-06:00",
+                "arrivalDateTime": "2023-01-02T19:30:00.000-06:00",
+                "operatingCarrierCode": "WN",
+                "marketingCarrierCode": "WN",
+                "aircraftEquipmentType": "73H",
+                "wifiOnBoard": true,
+                "stopsDetails": [
+                  {
+                    "originationAirportCode": "BNA",
+                    "destinationAirportCode": "MDW",
+                    "flightNumber": "1956",
+                    "legDuration": 95,
+                    "stopDuration": 0,
+                    "departureTime": "17:55",
+                    "arrivalTime": "19:30",
+                    "departureDateTime": "2023-01-02T17:55:00.000-06:00",
+                    "arrivalDateTime": "2023-01-02T19:30:00.000-06:00"
+                  }
+                ]
+              }
+            ],
+            "fareProducts": {
+              "ADULT": {
+                "WGA": {
+                  "productId": "WGA|HLA0P2H,H,LGA,BNA,2023-01-02T13:25-05:00,2023-01-02T15:00-06:00,WN,WN,2771,73W|HLA0P2H,H,BNA,MDW,2023-01-02T17:55-06:00,2023-01-02T19:30-06:00,WN,WN,1956,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "350.12",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "49.86",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "399.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2101"
+                  },
+                  "waivedFare": null
+                },
+                "BUS": {
+                  "productId": "BUS|BLA0P8H,B,LGA,BNA,2023-01-02T13:25-05:00,2023-01-02T15:00-06:00,WN,WN,2771,73W|BLA0P8H,B,BNA,MDW,2023-01-02T17:55-06:00,2023-01-02T19:30-06:00,WN,WN,1956,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "471.05",
+                      "currencyCode": "USD"
+                    },
+                    "totalTaxesAndFees": {
+                      "value": "58.93",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "529.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "5653"
+                  },
+                  "waivedFare": null
+                },
+                "PLU": {
+                  "productId": "PLU|HLA0P4Q,H,LGA,BNA,2023-01-02T13:25-05:00,2023-01-02T15:00-06:00,WN,WN,2771,73W|HLA0P4Q,H,BNA,MDW,2023-01-02T17:55-06:00,2023-01-02T19:30-06:00,WN,WN,1956,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "368.73",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "51.25",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "419.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "2950"
+                  },
+                  "waivedFare": null
+                },
+                "ANY": {
+                  "productId": "ANY|HLA0P6B,H,LGA,BNA,2023-01-02T13:25-05:00,2023-01-02T15:00-06:00,WN,WN,2771,73W|HLA0P6B,H,BNA,MDW,2023-01-02T17:55-06:00,2023-01-02T19:30-06:00,WN,WN,1956,73H",
+                  "pricingContext": {
+                    "cff": "CFFREV",
+                    "paxType": "ADT",
+                    "prcPaxType": "ADT",
+                    "pricingFlow": "REV",
+                    "flowType": "REVENUE"
+                  },
+                  "passengerType": "ADULT",
+                  "availabilityStatus": "AVAILABLE",
+                  "originalFare": null,
+                  "fare": {
+                    "baseFare": {
+                      "value": "424.54",
+                      "currencyCode": "USD"
+                    },
+                    "seatsLeft": 3,
+                    "totalTaxesAndFees": {
+                      "value": "55.44",
+                      "currencyCode": "USD"
+                    },
+                    "totalFare": {
+                      "value": "479.98",
+                      "currencyCode": "USD"
+                    },
+                    "accrualPoints": "4246"
+                  },
+                  "waivedFare": null
+                }
+              }
+            }
+          }
+        ],
+        "lowestFare": {
+          "fareFamily": "WGA",
+          "currencyCode": "USD",
+          "value": "151.99"
+        }
+      }
+    ],
+    "promoToken": null
+  }
+}
